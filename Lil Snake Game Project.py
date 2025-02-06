@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-
+# Welcome to the game of the year (personally made by me...). Hopefully you think its better than GTA 6.
 
 pip install pygame
 
@@ -132,6 +132,6 @@ gameLoop()
 
 # In[ ]:
 
-
+# Thanks for playing... Hopefully it was impressive lol
 
 
