@@ -2,10 +2,11 @@
 # coding: utf-8
 
 # In[ ]:
-
+# Time to showcase the object-oriented programming skills...
 
 import random
 
+# Gotta make the starter room and baseline stuff.
 class Room:
     def __init__(self, name, description, items=None, enemies=None, connected_rooms=None):
         self.name = name
@@ -14,6 +15,7 @@ class Room:
         self.enemies = enemies if enemies else []
         self.connected_rooms = connected_rooms if connected_rooms else {}
 
+# Gonna help to keep direction on what areas are connected
     def connect_room(self, room, direction):
         self.connected_rooms[direction] = room
 
@@ -40,7 +42,7 @@ class Room:
     def remove_enemy(self, enemy_name):
         self.enemies = [enemy for enemy in self.enemies if enemy['name'] != enemy_name]
 
-
+# Yes you are playing as Lebron... but other than that I'm making an inventory, damage, and health system.
 class Game:
     def __init__(self):
         self.rooms = self.create_rooms()
@@ -191,8 +193,8 @@ class Game:
             print("Your inventory is empty.")
 
     def end_game(self):
-        print("You have killed all the threats that have plagued your home. You finally feel the sense to leave this shell of a happy home.")
-        print("You open the ruined front door of the house, only to be greeted by the barrell of a gun. Suddenly, everything turns to black.")
+        print("You just killed all the threats that have plagued your home. You finally feel the sense to leave this shell of a happy home.")
+        print("You open the ruined front door of the house, only to be greeted by the barell of a gun. Suddenly, everything turns to black.")
         print("You have died. Game over.")
 
 if __name__ == "__main__":
