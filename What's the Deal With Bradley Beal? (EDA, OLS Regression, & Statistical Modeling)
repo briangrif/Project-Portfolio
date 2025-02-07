@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
 
-# With the power of data science and statistical modeling, this project is going to provide analytical reasoning that Bradley Beal was not worth the $251 million dollar supermax he signed in 2022.
+# With the power of data science and statistical modeling, this project was made to provide data-driven reasoning that Bradley Beal was ABSOLUTELY not worth the $251 million dollar supermax he signed in 2022.
 # This is based on his tenure with the Wizards and how much he got paid relative to his actual efficient value on the court. 
 
 # Manually Input Multiple Data Points for Bradley Beal's Performance Over Multiple Seasons
