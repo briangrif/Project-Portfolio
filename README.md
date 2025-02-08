@@ -18,7 +18,8 @@ You will need to install the following Python libraries in order for the code to
 # Projects
 
 ### What's the Deal With Bradley Beal?
-This project is based on Bradley Beal's 2022 SuperMax extension ($251 million dollar for 5 years) and how an analyst could've saved the Wizards from a SERIOUS financial mistake.
-- The Purpose? To use basketball statistics and our own efficiency formula to showcase his regression going into his contract year.
-- What data was used? Core statistics (PPG, RPG, APG) divided by 'Minutes' to give a efficiency rating for every possible chance he's on the court.
+This project is based on Bradley Beal's 2022 SuperMax extension (5 Years, $251 Million Dollars) and how an aspiring analyst could've saved the Wizards from a SERIOUS financial mistake.
+- The Purpose? To use basketball statistics and a crafted efficiency formula to showcase his (OBVIOUS) regression going into his contract year.
+- What data was used? Core statistics (PPG, RPG, APG) divided by 'Minutes' to give an efficiency rating for every possible chance he's on the court.
 - How far does the data span? His entire Tenure with the Wizards (Rookie to SuperMax extension).
+- Why were salaries included? To give persepctive and compare how much he was getting paid at each year in his career. Basically signals the actual value of his talent, relative to the comparison year. 
